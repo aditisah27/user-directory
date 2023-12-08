@@ -1,0 +1,71 @@
+.userCard {
+    width: 97.5%;
+    border: 1px solid black;
+    margin-left: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .postCardContainer {
+    width: 25%;
+    background-color:lightblue;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: "column";
+    flex-wrap: wrap;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .postHeader {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  /* Float four columns side by side */
+.postCardContainer {
+    float: left;
+    /* width: 25%; */
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .cardsList {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .cardsList:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .postCardContainer {
+      width: 99%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .clock-container {
+    display: flex;
+  }
+
+  .clock {
+    height: 25px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+  }

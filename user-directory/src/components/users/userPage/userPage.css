@@ -1,0 +1,35 @@
+.cardsList {
+    width: 100%;
+  }
+
+.cardContainer {
+    background-color:lightblue;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .back-btn {
+    width: 48px;
+    height: 24px;
+    background-color: gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .pause-btn {
+    width: 56px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: gray;
+  }
+
+  .profile-header-text {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
